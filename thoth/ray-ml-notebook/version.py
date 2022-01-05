@@ -17,4 +17,4 @@
 
 """This file carries the version of the ray ml notebook project."""
 
-__version__ = "0.0.0"
+__version__ = "0.1.0"
