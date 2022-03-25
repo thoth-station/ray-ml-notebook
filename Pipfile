@@ -4,28 +4,28 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-ray = { version = ">=1.4,<1.5", extras = [ "default" ] }
+ray = { version = "*", extras = [ "default" ] }
 flatbuffers = "*"
 dataclasses = "*"
-codeflare = "==0.1.0.dev0"
-pickle5 = "==0.0.11"
-lale = "==0.5.3"
-tensorflow = "==2.4.1"
+codeflare = "*"
+pickle5 = "*"
+lale = "*"
+tensorflow = "==2.6.3"
 horovod = {version = "==0.21.3", extras = ["ray"]}
-keras = "==2.4.3"
-scikit-learn = "==0.24.1"
+keras = "*"
+scikit-learn = "*"
 dask = {version = "==2021.2.0", extras = ["array", "dataframe"]}
-toolz = "==0.11.1"
-pandas = "==1.1.5"
-scipy = "==1.5.4"
-xgboost = "==1.4.2"
-xgboost-ray = "==0.1.4"
+toolz = "*"
+pandas = "*"
+scipy = "*"
+xgboost = "*"
+xgboost-ray = "*"
 Cython = "*"
 
 ipywidgets = ">=7.5.0"
 boto3 = "==1.17.11"
 jupyterlab-git = "==0.30.0"
-jupyterlab-s3-browser = "*"
+jupyterlab-s3-browser = "==0.10.1"
 matplotlib = "*"
 s3fs = "==0.3.4"
 
@@ -33,3 +33,6 @@ s3fs = "==0.3.4"
 
 [requires]
 python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
