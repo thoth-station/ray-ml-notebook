@@ -21,9 +21,14 @@ scipy = "*"
 xgboost = "*"
 xgboost-ray = "*"
 Cython = "*"
+
+# ray_tune
 "ray[tune]" = "*"
 tune_sklearn = "*"
 packaging = "*"
+
+# pytorch
+torch = "*"
 
 ipywidgets = ">=7.5.0"
 boto3 = "==1.17.11"
