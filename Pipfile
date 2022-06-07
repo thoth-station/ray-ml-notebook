@@ -27,6 +27,10 @@ Cython = "*"
 tune_sklearn = "*"
 packaging = "*"
 
+# ray_data
+"ray[data]" = "*"
+memory_profiler = "*"
+
 # pytorch
 torch = "*"
 
