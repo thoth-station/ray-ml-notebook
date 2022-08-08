@@ -33,6 +33,7 @@ memory_profiler = "*"
 
 # pytorch
 torch = "*"
+torchvision = "*"
 
 ipywidgets = ">=7.5.0"
 boto3 = "==1.17.11"
