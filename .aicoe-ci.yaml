@@ -5,7 +5,7 @@ check:
   - thoth-build
 build:
   build-stratergy: Source
-  base-image: "quay.io/thoth-station/s2i-minimal-py38-notebook:v0.3.0"
+  base-image: "quay.io/thoth-station/s2i-minimal-py38-notebook:v0.4.0"
   registry: quay.io
   registry-org: thoth-station
   registry-project: s2i-ray-ml-notebook
