@@ -1,5 +1,9 @@
 # Changelog for Thoth's Template GitHub Project
 
+## Release 0.2.1 (2022-08-09T06:08:03)
+* b72d2ed :ship: Bump up base image initialized in CI.
+* 538a82a update ray and add torchvision
+
 ## Release 0.2.0 (2022-06-07T18:57:22)
 
 * f565b55 updated reqs for Ray-data
